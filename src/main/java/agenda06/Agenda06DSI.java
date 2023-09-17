@@ -49,6 +49,9 @@ public class Agenda06DSI {
             case 0:
                 JOptionPane.showConfirmDialog(null, "Prazo final para pagamento é 31/12");
                 break;
+            default:
+                JOptionPane.showConfirmDialog(null, "Dados incorretos");
+                break;
         }
     }
 
